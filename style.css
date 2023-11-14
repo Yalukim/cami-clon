@@ -1,0 +1,276 @@
+@import "reset.css";
+
+@font-face {
+    font-family : 'arc';
+    src : url("./ARCHISCULPTURE_v219.ttf") format("truetype");
+
+}
+
+
+
+html{
+    font-family:'arc';
+}
+body{
+    height: 100%;
+}
+header{
+    min-width: 1200px;
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #F3EED4;
+
+}
+#item0{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 160px;
+}
+#item1{
+    width: 150px;
+    height: 150px;
+    background-image: url(./header1.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 16px;
+    display: flex;
+
+}
+#item2{
+    display: flex;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.item2-1{
+    display: flex;
+    gap: 160px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.item2-1:hover{
+    cursor: pointer;
+}
+#item3{
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 736px;
+    height: 236px;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 80px;
+    
+}
+.item3-1-1{
+    font-size: 32px;
+    color: #aa9785;
+   
+}
+.item3-1-2{
+   font-size: 160px;
+   margin-left: 80px;
+  
+}
+.item3-1-2:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.item3-1-3{
+    width: 150px;
+    height: 32px;
+    border: 1px solid #aa9785;
+    color: rgb(240, 193, 142);
+    text-align: center;
+    line-height: 32px;
+    margin-left: 80px;
+    margin-top: 32px;
+}
+.item3-1-3:hover{
+    cursor: pointer;
+}
+#item4{
+    min-width: 1200px;
+    width: 100%;
+    height: 820px;
+    background-color: #E3C9be;
+    display: flex;
+}
+#item4-1{
+    display: flex;
+    width: 900px;
+    height: 100%;
+    margin: 0  auto;
+}
+.item4-1-1{
+    width: 100%;
+    height: 700px;
+    background-image: url(./main\ img-0.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 72px;
+}
+#item5{
+    display: grid;
+    
+}
+#item5-1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 800px 800px 800px ;
+}
+#item5-1 > div{
+    width: 100%;
+    height: 100%;
+    
+}
+#item5-1 > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+#item6{
+    width: 100%;
+    height: 900px;
+    background-color:#6991ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#item6-1{
+    width: 100%;
+    height: 100%;
+    background-image: url(./6-1.gif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    margin-top: 480px;
+}
+#item6-1:hover{
+    transform: scale(1.5);
+    transition: 5s;
+}
+#item7{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color:#8ba8f8;
+
+}
+
+#item7-1{
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    margin-top: 32px;
+    color: #fcebe4;
+}
+#item7-2{
+    width: 300px;
+    display: grid;
+}
+#item7-2-1{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px;
+    margin-top: 80px;
+    margin-left: 160px;
+    
+}
+#item7-2-1 > div > img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.item7-2-1-1:hover{
+         transform: scale(1.5);
+         transition: 1s;
+        
+}
+
+
+#item8{
+    
+    display: grid;
+    background-color: #fcebe4;
+    justify-items: center;
+    align-items: center;
+}
+#item8-1{
+    display: grid;
+    grid-template-columns: 470px 470px 470px;
+    grid-template-rows: 372px;
+    background-color: #fcebe4;
+    margin-left: 80px;
+    margin-bottom: 16px;
+}
+#item8-1:nth-child(1){
+    background-image: url(./EV.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+
+.item8-1-2{
+    display: flex;
+    flex-direction: column;
+    gap:34px;
+    justify-content: center
+}
+.item8-1-2 > h2{
+    font-size: 40px;
+    color:#ff986c;
+}
+.item8-1-2 > p{
+    font-size: 24px;
+    color:#aa9785;
+    width: 190px;
+    height: 40px;
+    border: 1px solid #aa9785;
+    text-align: center;
+    line-height: 40px;
+}
+.item8-1-2 > p:hover{
+    cursor: pointer;
+}
+#item8-1-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+}
+.item8-1-3 > div{
+    width: 470px;
+    height: 300px;
+    background-image: url(./SSI_20140311105721.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#kim{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+#kim > p{
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+}
